@@ -1,0 +1,31 @@
+#include<iostream>
+#include<conio.h>
+
+using namespace std;
+
+class  tank{
+    public:
+        void num(int a)
+        {
+            cout<<"number is"<<a;
+        }
+        void num(double x)
+        {
+            cout<<"number is"<<x;
+        }
+
+        void num(int x, int y)
+        {
+            cout<<"inputs are"<<x<<" "<<y;
+
+        }
+
+};
+
+int main()
+{
+    tank a1;
+    a1.num(23);
+    a1.num(45.67);
+    a1.num(45,34);
+}
